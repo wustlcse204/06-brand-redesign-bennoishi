@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 75, 75);
+}
+
+ol, ul {
+    margin: 0 0 50px 0;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding: 0;
+}
+
+a {
+    font-weight: bold;
+    color: deeppink;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+article {
+    min-height: 50vh;
+    margin-bottom: 50px;
+}
+
+article .margin {
+    margin-bottom: 100vh;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #555555;
+    position: fixed;
+    padding: 30px;
+    z-index: 100;
+}
+nav a {
+    display: inline-flex;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+html {
+    font-family: "Arial", sans-serif;
+}
+
+.window {
+    position: relative;
+    display: block;
+    margin: auto;
+    background-color: orange;
+    width: 70%;
+    margin-top: 110px;
+}
+
+.Logo {
+    width: 100px;
+    height: 50px;
+    padding-right: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.Social {
+    width: 50px;
+    height: 50px;
+    padding: 0px 40px;
+}
+
+.Mothership {
+    padding-top: 40px;
+}
+
+.middle {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-gap: 10px;
+    background-color: #df5900;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .vertical {
+      padding: 10px 0;
+  }
