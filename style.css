@@ -8,6 +8,7 @@ h1 {
 hr {
     color: black;
     border-top: 3px solid;
+    width:100.75%
 }
 
 h3 {
@@ -64,6 +65,10 @@ nav a {
     padding: 0px 2%;
     color: #fff;
     text-decoration: none;
+}
+
+nav a:hover {
+    color:rgb(255, 75, 75);
 }
 
 html {
@@ -133,7 +138,7 @@ a.side-link {
     font-size: 15px;
 }
 
-a:hover {
+.middle-text a:hover {
     text-decoration: underline;
     color: #555555;
 }
